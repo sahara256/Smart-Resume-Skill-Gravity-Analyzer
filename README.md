@@ -1,16 +1,32 @@
 # Smart Resume Skill Gravity Analyzer
 
-AI-powered resume analyzer with interactive AntiGravity skill visualization.
+An AI-powered resume analysis platform inspired by the Google AntiGravity concept that transforms static resume data into an interactive skill universe.
+
+## About the Project
+
+This project reimagines traditional resume analysis by combining AI/NLP with an AntiGravity-inspired visualization approach. Instead of displaying skills in a static list, skills behave as dynamic objects in a physics-based environment.
+
+The AntiGravity-inspired behavior includes:
+
+- Skills represented as floating interactive nodes
+- Strong skills move closer to the center
+- Related skills attract one another
+- Missing skills move outward
+- Nodes respond to gravity, collisions, and user interaction
+- Interactive drag-and-drop visualization
 
 ## Features
+
 - Resume PDF upload
 - NLP-based skill extraction
-- AntiGravity skill visualization
+- Interactive AntiGravity-inspired skill visualization
 - Skill gap analysis
 - ATS compatibility score
-- Responsive futuristic UI
+- Recommended career paths
+- Futuristic responsive UI
 
 ## Tech Stack
+
 Frontend:
 - React
 - Vite
@@ -24,12 +40,6 @@ Backend:
 Database:
 - SQLite / MySQL
 
-## Installation
+## Project Inspiration
 
-Backend:
-pip install -r requirements.txt
-python app.py
-
-Frontend:
-npm install
-npm run dev
+Inspired by the Google AntiGravity experience and extended into a practical AI application for resume analysis and skill visualization.
